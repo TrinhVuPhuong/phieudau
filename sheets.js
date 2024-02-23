@@ -168,12 +168,40 @@ function maker() {
 
             td = document.createElement('td');
             td.setAttribute("class", "title");
-            td.textContent="Bì và % cành";
+            td.textContent="Bì";
             tr.append(td);
 
             td = document.createElement('td');
             td.setAttribute("class", "content");
-            td.textContent=  obj['khauhaodau']+ " kg"
+            td.textContent=  obj['bi']+ " kg"
+            tr.append(td);
+
+        table.append(tr);
+
+     tr = document.createElement('tr');
+
+            td = document.createElement('td');
+            td.setAttribute("class", "title");
+            td.textContent="%Cành";
+            tr.append(td);
+
+            td = document.createElement('td');
+            td.setAttribute("class", "content");
+            td.textContent=  obj['canh']+ " kg"
+            tr.append(td);
+
+        table.append(tr);
+
+     tr = document.createElement('tr');
+
+            td = document.createElement('td');
+            td.setAttribute("class", "title");
+            td.textContent="%Nước";
+            tr.append(td);
+
+            td = document.createElement('td');
+            td.setAttribute("class", "content");
+            td.textContent=  obj['nuoc']+ " kg"
             tr.append(td);
 
         table.append(tr);
