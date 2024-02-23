@@ -168,7 +168,7 @@ function maker() {
 
             td = document.createElement('td');
             td.setAttribute("class", "title");
-            td.textContent="Khấu hao dâu";
+            td.textContent="Bì và % cành";
             tr.append(td);
 
             td = document.createElement('td');
